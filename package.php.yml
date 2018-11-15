@@ -1,0 +1,36 @@
+name: jphp-voice-recorder-ext
+version: 1.0.0
+type: package
+deps:
+  jphp-runtime: '*'
+plugins:
+- Hub
+- Gradle
+- Doc
+hub:
+  login: yousan4ik@gmail.com
+config:
+  ignore:
+  - /sandbox/**
+  - /.idea/**
+  - /*.iml
+  - /.git/**
+  - /package.hub.yml
+  - /src-bundle/**
+doc:
+  url-prefix: https://github.com/MWGuy/jphp-voice-recorder-ext/blob/master/api-docs/
+  langs:
+    en: English
+    ru: Русский
+
+devDeps:
+  dn-bundle-plugin: '*'
+
+develnext-bundle:
+  version: 1.0.0
+  name: AudioBundle
+  author: MWGuy
+  icon: "develnext/bundle/audio/audio.png"
+  description: "Пакет для работы со звуком"
+  group: "system"
+  class: "develnext\\bundle\\audio\\AudioBundle"
