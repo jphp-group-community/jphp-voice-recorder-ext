@@ -6,7 +6,7 @@
 /vendor/
 /.idea/
 /jars/
-/gradle/
+/gradle/**
 /.gradle/
 /build/
 /bundle/
